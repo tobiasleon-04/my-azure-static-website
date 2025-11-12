@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <title>My Azure Static WebSite Project — Tobias Leon</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -33,7 +34,7 @@
     <h2>How to deploy (quick)</h2>
     <pre>
 az storage blob upload-batch -s ./site -d '$web' --account-name mystaticsite01 --auth-mode login
-  </pre>
+    </pre>
 
     <footer>Built by Tobias Leon | demo for resume</footer>
 </body>
