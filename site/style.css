@@ -5,8 +5,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Anticyclone';
+    src: url('Anticyclone-VariableVF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: system-ui, 'Segoe UI', Roboto, Arial, sans-serif;
+    font-family: 'Anticyclone', system-ui, 'Segoe UI', Roboto, Arial, sans-serif;
     max-width: 900px;
     margin: 40px auto;
     padding: 0 20px;
@@ -69,3 +76,4 @@ footer {
     color: #6b7280;
     font-size: 16px;
 }
+
