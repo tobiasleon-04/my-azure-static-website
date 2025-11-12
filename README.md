@@ -1,34 +1,33 @@
-# My Azure Static Website Project
+# My Azure Static Website
 
 ## Overview
-This is a static website I built and deployed on Azure to showcase my cloud skills. The project demonstrates how to host a website on Azure Blob Storage and automate updates using GitHub Actions.
+I built this static website to learn how to host sites on Azure and automate deployments. It’s a simple site, but it shows how to set up hosting, deploy updates automatically, and use custom fonts for design.
 
-## Screenshot
-![Website Screenshot](screenshot.png)
+## Screenshots
+![Desktop View](images/web-screenshot.png)
 
 ## What I Did
-- Designed a clean and responsive static website with semantic HTML and CSS.  
-- Added custom fonts: **Shigat** for headings and **Anticyclone** for body text.  
-- Created a **404 error page** for a complete user experience.  
-- Uploaded and managed the project in **GitHub**, including version control.  
-- Configured an **Azure Storage Account** for static website hosting.  
-- Set up **GitHub Actions** to automatically deploy changes to Azure.  
-- Verified the deployment and made sure the live site works as expected.
+- Created a responsive website using HTML and CSS.  
+- Added **Shigat** for headings and **Anticyclone** for body text.  
+- Made a 404 page for broken links.  
+- Managed the project in **GitHub** with version control.  
+- Set up **Azure Storage** for static website hosting.  
+- Used **GitHub Actions** to automatically deploy changes.  
+- Checked the site to make sure everything works online.
 
-## Tools & Technologies
-- **Azure Blob Storage** for hosting the static website  
-- **GitHub & GitHub Actions** for source control and CI/CD automation  
-- **HTML & CSS** for website structure and styling  
-- **Custom Fonts** integrated via `.ttf` files  
-- **Azure CLI** for uploading files and managing resources  
-- **Service Principal & GitHub Secrets** for secure deployment  
+## Tools & Skills
+- Azure Blob Storage – Hosting the website  
+- GitHub & GitHub Actions – Source control and CI/CD  
+- HTML & CSS – Frontend design  
+- Custom fonts – `.ttf` files for headings and body  
+- Azure CLI – Managing and uploading files  
+- Service Principal & GitHub Secrets – Secure deployment  
 
-## Deployment
-- Live website: `https://mystaticsite01.z13.web.core.windows.net/`  
-- Updates automatically deploy when I push changes to the `main` branch on GitHub.
+## Live Site
+[View the site here](https://mystaticsite01.z13.web.core.windows.net/)
 
-## Key Skills Demonstrated
-- Cloud deployment and hosting on Azure  
-- CI/CD automation using GitHub Actions  
-- Frontend design and responsive web development  
-- Managing and documenting projects in GitHub  
+## Skills Highlighted
+- Deploying and hosting websites on Azure  
+- Automating deployments with GitHub Actions  
+- Responsive web design  
+- GitHub project management and documentation  
