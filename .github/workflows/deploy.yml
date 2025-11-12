@@ -12,10 +12,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Upload to Azure Blob Storage
-        uses: azure/CLI@v1
+      - name: Azure Login
+        uses: azure/login@v1
         with:
-          inlineScript: |
-            az storage blob upload-batch -s site -d '$web' \
-              --account-name ${{ secrets.AZURE_STORAGE_ACCOUNT }} \
-              --overwrite
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Upload to Azure Blob Storage
+        run: |
+          az storage blob upload-batch \
+            --account-name ${{ secrets.AZURE_STORAGE_ACCOUNT }} \
+            --auth-mode key \
+            -s site \
+            -d '$web' \
+            --overwrite true
