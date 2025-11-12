@@ -1,6 +1,6 @@
 **My Azure Static Website Project**
 
-**Overview**  
+**Quick Look**  
 I built this static website to practice hosting sites on Azure and automating deployments. It’s a simple site, but it shows how to host a site, deploy updates automatically, and use custom fonts for design.
 
 **Screenshot**  
