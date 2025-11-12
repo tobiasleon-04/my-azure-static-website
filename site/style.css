@@ -1,14 +1,19 @@
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     text-align: center;
-    background-color: #fff7e6; /* soft cream background */
-    color: #1a1a1a;           /* dark text for readability */
+    background-color: #f0f4f8;
+    color: #1f2937;
     padding-top: 50px;
     margin: 0;
 }
 
 h1 {
-    color: #ff6f61;  /* coral color for your name/title */
+    color: #3b82f6;
+}
+
+h2 {
+    color: #2563eb;
+    margin-top: 40px;
 }
 
 p {
@@ -17,12 +22,19 @@ p {
 }
 
 span.highlight {
-    color: #00796b;  /* teal accent color */
+    color: #ef4444;
     font-weight: bold;
+}
+
+ul, ol {
+    text-align: left;
+    display: inline-block;
+    margin: 20px auto;
+    padding-left: 40px;
 }
 
 footer {
     margin-top: 50px;
     font-size: 16px;
-    color: #555;
+    color: #6b7280;
 }
