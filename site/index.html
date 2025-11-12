@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My Azure Static WebSite Project — Tobias Leon</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+        body {
+            font-family: system-ui, Segoe UI, Roboto, Arial;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px
+        }
+
+        header {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 18px
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 6px 10px;
+            border-radius: 999px;
+            background: #f3f4f6;
+            font-weight: 600
+        }
+
+        pre {
+            background: #111;
+            color: #0f0;
+            padding: 12px;
+            border-radius: 6px;
+            overflow: auto
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Azure Static Website</h1>
+        <div class="badge">Project: Static site on Azure</div>
+    </header>
+
+    <p>This is a minimal placeholder page for my resume project. It demonstrates static hosting on Azure Blob Storage.
+    </p>
+
+    <h2>About This Project</h2>
+    <p>This project demonstrates my ability to deploy and manage Azure resources for cloud-based web hosting.
+        It was built as part of my cloud engineering learning path and showcases automation, scalability, and
+        cost-effective architecture.</p>
+
+    <h2>Actions performed in this project</h2>
+
+    <ul>
+        <li>Created and configured Azure Resource Group and Storage Account (StorageV2)</li>
+        <li>Deployed static website files to Azure Blob Storage using <code>az storage blob upload-batch</code></li>
+        <li>Implemented CI/CD pipeline using GitHub Actions for automatic deployment</li>
+        <li>Optional extension: custom domain and HTTPS using Azure Static Web Apps</li>
+    </ul>
+
+    <h2>How to deploy (quick)</h2>
+    <pre>
+az storage blob upload-batch -s ./site -d '$web' --account-name mystaticsite01 --auth-mode login
+  </pre>
+
+    <footer style="margin-top:30px;color:#666">Built by &lt;your-name&gt; — demo for resume</footer>
+</body>
+
+</html>
