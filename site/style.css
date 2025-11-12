@@ -1,0 +1,28 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    text-align: center;
+    background-color: #fff7e6; /* soft cream background */
+    color: #1a1a1a;           /* dark text for readability */
+    padding-top: 50px;
+    margin: 0;
+}
+
+h1 {
+    color: #ff6f61;  /* coral color for your name/title */
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+span.highlight {
+    color: #00796b;  /* teal accent color */
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 16px;
+    color: #555;
+}
