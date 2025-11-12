@@ -16,12 +16,12 @@ I built this static website to practice hosting sites on Azure and automating de
 - Checked the site to make sure everything works online  
 
 **Tools & Skills**  
-- Azure Blob Storage – Hosting the website  
-- GitHub & GitHub Actions – Source control and CI/CD  
+- Azure Blob Storage : Hosting the website  
+- GitHub & GitHub Actions : Source control and CI/CD  
 - HTML & CSS – Frontend design  
-- Custom fonts – `.ttf` files for headings and body  
-- Azure CLI – Managing and uploading files  
-- Service Principal & GitHub Secrets – Secure deployment  
+- Custom fonts : ".ttf" files for headings and body  
+- Azure CLI : Managing and uploading files  
+- Service Principal & GitHub Secrets : Secure deployment  
 
 **Live Site**  
 [View the site here](https://mystaticsite01.z13.web.core.windows.net/)
