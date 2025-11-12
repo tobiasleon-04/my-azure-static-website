@@ -23,7 +23,8 @@ I built this static website to practice hosting sites on Azure and automating de
 - Azure CLI : Managing and uploading files  
 - Service Principal & GitHub Secrets : Secure deployment  
 
-**Live Site**  
+**Live Site**
+
 [View the site here](https://mystaticsite01.z13.web.core.windows.net/)
 
 **Skills Highlighted**  
